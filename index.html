@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código Kid | Escola de Tecnologia | Escola de Programação | Escola de Robótica</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- CSS files -->
+    <link rel="stylesheet" href="/src/css/about.css">
+    <link rel="stylesheet" href="/src/css/animation.css">
+    <link rel="stylesheet" href="/src/css/buttons.css">
+    <link rel="stylesheet" href="/src/css/courses.css">
+    <link rel="stylesheet" href="/src/css/cta.css">
+    <link rel="stylesheet" href="/src/css/dark-mode.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+    <link rel="stylesheet" href="/src/css/global.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/hero.css">
+    <!-- <link rel="stylesheet" href="/src/css/new-hero.css"> -->
+    <link rel="stylesheet" href="/src/css/media-queries.css">
+    <link rel="stylesheet" href="/src/css/social-icons.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/testimonial.css">
+    <link rel="stylesheet" href="/src/css/variables.css">
+    <link rel="stylesheet" href="/src/css/whatsapp.css">
+    <link rel="stylesheet" href="/src/css/topic-courses.css">
+    <link rel="stylesheet" href="/src/css/localization.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container navbar-panel">
+                <a href="#back-to-top" onclick="backToTop(event)">
+                    <img id="logo" src="src/images/purple-logo.svg" alt="Logotipo do Código Kid Aldeia">
+                </a>
+                
+                <!-- Botão do menu hambúrguer -->
+                <div class="menu-and-toggle">
+                    <div id="dark-mode-toggle-new" class="dark-mode-toggle">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+    
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Quem somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#courses">Cursos</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#photos">Fotos</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Depoimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#localization">Localização</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contato</a>
+                        </li>
+                    </ul>
+
+                    <div id="dark-mode-toggle" class="dark-mode-toggle">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <!-- <h1 id="typing-text"></h1> -->
+                    <h1>Venha programar seu futuro com a gente!</h1>
+                    <p>Aprenda as habilidades mais demandadas do mercado com profissionais especializados no setor.</p>
+                    <a href="#" class="btn">Agende já uma aula experimental!</a>
+                </div>
+                <div class="hero-image">
+                    <img src="/src/images/both-robots.svg" alt="Robô cinza mascote da Código Kid Aldeia">
+                </div>
+            </div>
+        </section>
+
+        <!-- Quem Somos -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="about-title">Quem somos?</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            A Código Kid Aldeia é uma escola de tecnologia que transforma o aprendizado em uma experiência prática e envolvente. 
+                            Com uma metodologia interativa e alinhada às competências da BNCC Computacional, 
+                            capacitamos nossos alunos para enfrentar os desafios do futuro, desenvolvendo criatividade, 
+                            raciocínio lógico e habilidades para a vida. Nosso objetivo é inspirar jovens mentes a criar, 
+                            aprender e se destacar no mundo tecnológico!
+                        </p>
+                        <ul class="feature-list">
+                            <li class="feature-item">
+                                <span class="feature-icon">🚀</span>
+                                <span>Aprendizado prático e divertido</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">👩‍🏫</span>
+                                <span>Instrutores especializados em educação infantil</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">🤖</span>
+                                <span>Tecnologias modernas adaptadas para crianças</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">🏆</span>
+                                <span>Desenvolvimento de habilidades para o futuro</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="gallery">
+                        <img src="/src/images/basic-computing.jpg" alt="Foto 1">
+                        <img src="/src/images/basic-computing.jpg" alt="Foto 2">
+                        <img src="/src/images/basic-computing.jpg" alt="Foto 3">
+                        <img src="/src/images/basic-computing.jpg" alt="Foto 4">
+                        <img src="/src/images/basic-computing.jpg" alt="Foto 5">
+                        <img src="/src/images/basic-computing.jpg" alt="Foto 6">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cursos -->
+        <section id="courses" class="courses">
+            <div class="container">
+                <h2 class="module-title">CURSOS</h2>
+
+                <div class="categories">
+                    <div class="category selected-topic-course" data-category="baby">
+                        <i class="fas fa-child"></i>
+                        <p>CK Baby</p>
+                    </div>
+                    <div class="category" data-category="kids">
+                        <i class="fas fa-user-graduate"></i>
+                        <p>CK Kids</p>
+                    </div>
+                    <div class="category" data-category="junior">
+                        <i class="fas fa-laptop-code"></i>
+                        <p>CK Júnior</p>
+                    </div>
+                    <div class="category" data-category="teens">
+                        <i class="fas fa-user-graduate"></i>
+                        <p>CK Teens</p>
+                    </div>
+                    <div class="category" data-category="master">
+                        <i class="fas fa-user-tie"></i>
+                        <p>CK Master</p>
+                    </div>
+                    <div class="category" data-category="senior">
+                        <i class="fas fa-user-tie"></i>
+                        <p>CK Senior</p>
+                    </div>
+                </div>
+
+                <!-- <div class="courses-container"> -->
+                <div id="baby" class="course-topic">
+                    <div class="course-grid">
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="/src/images/web-development.jpg" alt="LEGO WeDo 2.0">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">Club do Lego (4 anos)</h3>
+                                <p class="course-description">Incentivamos a criatividade e o aprendizado inicial por meio de atividades
+                                    lúdicas com o LEGO, estimulando a coordenação motora, a resolução de
+                                    problemas e o trabalho em equipe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="kids" class="course-topic">
+                    <div class="course-grid">
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="/src/images/web-development.jpg" alt="LEGO WeDo 2.0">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">Club do Lego (4 anos)</h3>
+                                <p class="course-description">Incentivamos a criatividade e o aprendizado inicial por meio de atividades
+                                    lúdicas com o LEGO, estimulando a coordenação motora, a resolução de
+                                    problemas e o trabalho em equipe</p>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="src/images/basic-computing.jpg" alt="LEGO Spike Essential">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">LEGO Spike Essential</h3>
+                                <p class="course-description">Aprenda a extrair insights valiosos de grandes conjuntos de dados usando Python, estatística e machine learning.</p>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="/src/images/robotic.jpg" alt="Kodu Game Lab">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">Kodu Game Lab</h3>
+                                <p class="course-description">Crie aplicativos móveis incríveis para iOS e Android usando React Native e as melhores práticas da indústria.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="junior" class="course-topic">
+                    <div class="course-grid">
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="/src/images/web-development.jpg" alt="LEGO WeDo 2.0">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">Club do Lego (4 anos)</h3>
+                                <p class="course-description">Incentivamos a criatividade e o aprendizado inicial por meio de atividades
+                                    lúdicas com o LEGO, estimulando a coordenação motora, a resolução de
+                                    problemas e o trabalho em equipe</p>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="src/images/basic-computing.jpg" alt="LEGO Spike Essential">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">LEGO Spike Essential</h3>
+                                <p class="course-description">Aprenda a extrair insights valiosos de grandes conjuntos de dados usando Python, estatística e machine learning.</p>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="/src/images/robotic.jpg" alt="Kodu Game Lab">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">Kodu Game Lab</h3>
+                                <p class="course-description">Crie aplicativos móveis incríveis para iOS e Android usando React Native e as melhores práticas da indústria.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="teens" class="course-topic">
+                    <div class="course-grid">
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="/src/images/web-development.jpg" alt="LEGO WeDo 2.0">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">Club do Lego (4 anos)</h3>
+                                <p class="course-description">Incentivamos a criatividade e o aprendizado inicial por meio de atividades
+                                    lúdicas com o LEGO, estimulando a coordenação motora, a resolução de
+                                    problemas e o trabalho em equipe</p>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="src/images/basic-computing.jpg" alt="LEGO Spike Essential">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">LEGO Spike Essential</h3>
+                                <p class="course-description">Aprenda a extrair insights valiosos de grandes conjuntos de dados usando Python, estatística e machine learning.</p>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="/src/images/robotic.jpg" alt="Kodu Game Lab">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">Kodu Game Lab</h3>
+                                <p class="course-description">Crie aplicativos móveis incríveis para iOS e Android usando React Native e as melhores práticas da indústria.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="master" class="course-topic">
+                    <div class="course-grid">
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="/src/images/web-development.jpg" alt="LEGO WeDo 2.0">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">Club do Lego (4 anos)</h3>
+                                <p class="course-description">Incentivamos a criatividade e o aprendizado inicial por meio de atividades
+                                    lúdicas com o LEGO, estimulando a coordenação motora, a resolução de
+                                    problemas e o trabalho em equipe</p>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="src/images/basic-computing.jpg" alt="LEGO Spike Essential">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">LEGO Spike Essential</h3>
+                                <p class="course-description">Aprenda a extrair insights valiosos de grandes conjuntos de dados usando Python, estatística e machine learning.</p>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="/src/images/robotic.jpg" alt="Kodu Game Lab">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">Kodu Game Lab</h3>
+                                <p class="course-description">Crie aplicativos móveis incríveis para iOS e Android usando React Native e as melhores práticas da indústria.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="senior" class="course-topic">
+                    <div class="course-grid">
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="/src/images/web-development.jpg" alt="LEGO WeDo 2.0">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">Club do Lego (4 anos)</h3>
+                                <p class="course-description">Incentivamos a criatividade e o aprendizado inicial por meio de atividades
+                                    lúdicas com o LEGO, estimulando a coordenação motora, a resolução de
+                                    problemas e o trabalho em equipe</p>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="src/images/basic-computing.jpg" alt="LEGO Spike Essential">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">LEGO Spike Essential</h3>
+                                <p class="course-description">Aprenda a extrair insights valiosos de grandes conjuntos de dados usando Python, estatística e machine learning.</p>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="/src/images/robotic.jpg" alt="Kodu Game Lab">
+                            </div>
+                            <div class="course-content">
+                                <h3 class="course-title">Kodu Game Lab</h3>
+                                <p class="course-description">Crie aplicativos móveis incríveis para iOS e Android usando React Native e as melhores práticas da indústria.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+
+
+                <!-- <div class="course-grid">
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="/src/images/web-development.jpg" alt="LEGO WeDo 2.0">
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Club do Lego (4 anos)</h3>
+                            <p class="course-description">Incentivamos a criatividade e o aprendizado inicial por meio de atividades
+                                lúdicas com o LEGO, estimulando a coordenação motora, a resolução de
+                                problemas e o trabalho em equipe</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="src/images/basic-computing.jpg" alt="LEGO Spike Essential">
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">LEGO Spike Essential</h3>
+                            <p class="course-description">Aprenda a extrair insights valiosos de grandes conjuntos de dados usando Python, estatística e machine learning.</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="/src/images/robotic.jpg" alt="Kodu Game Lab">
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Kodu Game Lab</h3>
+                            <p class="course-description">Crie aplicativos móveis incríveis para iOS e Android usando React Native e as melhores práticas da indústria.</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="/src/images/web-development.jpg" alt="LEGO WeDo 2.0">
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">LEGO WeDo 2.0</h3>
+                            <p class="course-description">Domine as tecnologias front-end e back-end mais demandadas do mercado e torne-se um desenvolvedor completo.</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="src/images/basic-computing.jpg" alt="LEGO Spike Essential">
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">LEGO Spike Essential</h3>
+                            <p class="course-description">Aprenda a extrair insights valiosos de grandes conjuntos de dados usando Python, estatística e machine learning.</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="/src/images/robotic.jpg" alt="Kodu Game Lab">
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Kodu Game Lab</h3>
+                            <p class="course-description">Crie aplicativos móveis incríveis para iOS e Android usando React Native e as melhores práticas da indústria.</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="/src/images/web-development.jpg" alt="LEGO WeDo 2.0">
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">LEGO WeDo 2.0</h3>
+                            <p class="course-description">Domine as tecnologias front-end e back-end mais demandadas do mercado e torne-se um desenvolvedor completo.</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="src/images/basic-computing.jpg" alt="LEGO Spike Essential">
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">LEGO Spike Essential</h3>
+                            <p class="course-description">Aprenda a extrair insights valiosos de grandes conjuntos de dados usando Python, estatística e machine learning.</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="/src/images/robotic.jpg" alt="Kodu Game Lab">
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Kodu Game Lab</h3>
+                            <p class="course-description">Crie aplicativos móveis incríveis para iOS e Android usando React Native e as melhores práticas da indústria.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <!-- <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="testimonial-title">O que nossos alunos dizem</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial-card">
+                        <div class="testimonial-image">
+                            <img src="src/images/amancio.jpeg" alt="Matheus Amâncio">
+                        </div>
+                        <p class="testimonial-quote">"A Código Kid transformou minha carreira. O curso de Desenvolvimento Web Full Stack me deu as habilidades e a confiança necessárias para conseguir meu primeiro emprego como desenvolvedor em uma startup de tecnologia."</p>
+                        <p class="testimonial-author">Matheus Amâncio</p>
+                        <p class="testimonial-role">Desenvolvedor Web Full Stack</p>
+                    </div>
+                    <div class="testimonial-nav">
+                        <button id="prevTestimonial">&lt;</button>
+                        <button id="nextTestimonial">&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="module-title">O que nossos alunos dizem</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial-cards">
+                        <!-- Os depoimentos serão gerados dinamicamente -->
+                    </div>
+                    <div class="testimonial-nav">
+                        <button id="prevTestimonial">&lt;</button>
+                        <button id="nextTestimonial">&gt;</button>
+                    </div>
+                </div>
+
+                <div class="modal-overlay"></div>
+                <div class="modal">
+                    <h3 id="modalAuthor"></h3>
+                    <p id="modalText"></p>
+                    <span class="close-modal">✖ Fechar</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container cta-content">
+                <h2>Pronto para começar sua jornada tech?</h2>
+                <p>Inscreva-se agora e ganhe acesso a uma aula experimental gratuita!</p>
+                <a href="#" class="btn">Agendar aula experimental!</a>
+            </div>
+        </section>    
+
+        <section id="localization" class="localization">
+            <div class="container">
+                <h2 class="module-title">Onde Estamos</h3>
+                <p>Venha nos visitar e conhecer nosso espaço de inovação!</p>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.3733220931945!2d-35.01147009999997!3d-7.
+                        960316599999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab11133800edc9%3A0x800ef29547f71589!
+                        2sC%C3%B3digo%20Kid%20Aldeia%20-%20Escola%20de%20Programa%C3%A7%C3%A3o%2C%20Rob%C3%B3tica%2C%20Games%20e%20Tecnologia!
+                        5e0!3m2!1spt-BR!2sbr!4v1738417989507!5m2!1spt-BR!2sbr" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>Código Kid</h3>
+                <p>Transformando carreiras através da educação em tecnologia.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Links Rápidos</h3>
+                <ul class="footer-links">
+                    <li>
+                        <a href="#courses">Cursos</a>
+                    </li>
+                    <li>
+                        <a href="#about">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="#depoiments">Depoimentos</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>codigokidaldeia@gmail.com</p>
+                <p>(81) 99565-7070</p>
+            </div>
+            <div class="footer-section">
+                <h3>Siga-nos</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/codigokidaldeia/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2024 Código Kid [Aldeia], Escola de Tecnologia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <div id="whatsapp">
+        <a href="https://wa.me/5581995657070" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="src/js/script.js"></script>
+</body>
+</html>

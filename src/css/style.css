@@ -1,0 +1,10 @@
+/* Background Video */
+.background-video {
+    position: fixed; /* Para fixar o vídeo na posição */
+    top: 0; /* Para posicionar no topo */
+    left: 0; /* Para posicionar à esquerda */
+    width: 100%; /* Para cobrir toda a largura */
+    height: 100%; /* Para cobrir toda a altura */
+    object-fit: cover; /* Para manter a proporção do vídeo */
+    z-index: -1; /* Para colocar o vídeo atrás do conteúdo */
+}

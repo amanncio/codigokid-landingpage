@@ -1,0 +1,45 @@
+.dark-mode-toggle {
+    display: block;
+    padding: 3px;
+    background-color: var(--toggle-color);
+    color: #ffffff;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1001;
+    transition: all 0.3s ease;
+}
+
+#dark-mode-toggle-new {
+    display: none;
+}
+
+.dark-mode-toggle i {
+    font-size: 1rem;
+}
+
+.dark-mode-toggle:hover {
+    transform: scale(1.1);
+}
+
+@media(max-width: 992px) {
+    #dark-mode-toggle {
+        display: none;
+    }
+
+    #dark-mode-toggle-new {
+        display: flex;
+        right: 130px; 
+        z-index: 1000; 
+        margin-right: 10px;
+    }
+    .menu-and-toggle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

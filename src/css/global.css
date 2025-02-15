@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--neutral-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-image: url('/src/images/background-detail-gray.svg');
+    background-repeat: repeat; /* Repete tanto horizontal quanto verticalmente */
+    background-size: 90%;
+}
+
+.module-title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--primary-color);
+}
+
+
+/* body {
+    margin: 0; 
+    height: 100vh; 
+    background-image: url('https://media.giphy.com/media/7FrOU9tPbgAZtxV5mb/giphy.gif?cid=790b76113tfcucarttvu1veb675zt5ht2i5izxkbbckz5dfr&ep=v1_gifs_search&rid=giphy.gif&ct=g'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+} */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+}

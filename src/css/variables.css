@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #FFD700;
+    --secondary-color: #6A5ACD; 
+    --tertiary-color: #32CD32; 
+    --quaternary-color: #DC143C; 
+
+    --green-color: #8CBC26;
+    --accent-color: #FF4500; /* Vermelho mais suave */
+    --neutral-color: #F0F0F0; /* Cinza claro para fundo */
+    --reverse-neutral-color: #2A2A2A;
+    --text-color: #333333;
+    --light-text-color: #666666;
+    --text-secondary-color: #5F5F5F;
+    --whatsapp-color: #25D366;
+    --toggle-color: #6A5ACD;
+    --bg-color: rgba(255, 255, 255, 0.9);
+    --success-color: #2E8B57;
+    --error-color: #B22222;
+}
+
+.dark-mode {
+    --primary-color: #FFD700;
+    --secondary-color: #9370DB;
+    --accent-color: #FF6347;
+    --neutral-color: #2A2A2A;
+    --text-color: #E0E0E0;
+    --light-text-color: #BBBBBB;
+    --toggle-color: #FFD700;
+}
