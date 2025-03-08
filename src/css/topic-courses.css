@@ -1,6 +1,8 @@
 .categories {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
@@ -13,6 +15,9 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   text-align: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
 }
 
 .category:hover {
